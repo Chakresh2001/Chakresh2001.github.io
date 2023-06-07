@@ -8,20 +8,20 @@ export const ProjectCard = ({image, title, desc, techStack, git,view}) => {
 
   return (
     <div>
-        <Box m="auto" w="80%" mt="80px" gap="30px" display={"flex"} justifyContent={"center"} alignItems={"center"} padding={"20px"} boxShadow={"md"}>
+        <Box className='project-card' m="auto" w="80%" mt="80px" gap="30px" display={"flex"} justifyContent={"center"} alignItems={"center"} padding={"20px"} boxShadow={"md"}>
             <Box overflow={"hidden"}>
                 <Image  transition={"transform .5s"} _hover={{ transform:"scale(1.07)", cursor:"pointer"}} src={image}/>
             </Box>
-            <Box letterSpacing={1}>
+            <Box className='project-title' letterSpacing={1}>
             <Text fontSize={"18px"} fontWeight={"bold"}>{title}</Text>
             <br />
-            <Text>{desc}</Text>
+            <Text className="project-description">{desc}</Text>
             <br />
-            <Text fontWeight={"light"}><span style={{fontWeight:"initial"}}>Tech Stack -</span> {techStack}</Text>
+            <Text className="project-tech-stack" fontWeight={"light"}><span style={{fontWeight:"initial"}}>Tech Stack -</span> {techStack}</Text>
             <br />
             <Box display={"flex"} gap="20px">
-            <a href={git}><Box h="20px" w="30px">{gitID}</Box></a>
-            <a href={view}><ViewIcon h="30px" w="40px"/></a>
+            <a href={git}><Box className="project-github-link" h="20px" w="30px">{gitID}</Box></a>
+            <a href={view}><ViewIcon className="project-deployed-link" h="30px" w="40px"/></a>
             </Box>
             </Box>
         </Box>

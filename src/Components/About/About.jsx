@@ -4,13 +4,13 @@ import styles from "./About.css"
 
 export const About = ({id}) => {
   return (
-    <div style={{styles,  marginTop:"100px", padding:"20px", width:"100vw" }} id={id}>
+    <div className="nav-link about" style={{styles,  marginTop:"100px", padding:"20px", width:"100vw" }} id={id}>
         <Text fontSize={"35px"} fontWeight={"bold"} color={"#01D0E2"} textAlign={"center"}>About Me </Text>
        
         <Box>
         <lottie-player style={{marginTop:"20px", height:"450px", width:"450px", margin:"auto"}} background="transparent" src="https://assets3.lottiefiles.com/packages/lf20_iv4dsx3q.json" mode="bounce"   speed="1"  loop  autoplay></lottie-player>
         </Box>
-        <Box mt="30px" fontSize={"1.4rem"} letterSpacing={1} textColor={"hsl(0, 0%, 30%)"}  textAlign={"center"} >
+        <Box id="user-detail-intro" mt="30px" fontSize={"1.4rem"} letterSpacing={1} textColor={"hsl(0, 0%, 30%)"}  textAlign={"center"} >
             <Text>Hello! I am Chakresh</Text>
             <Text>I love coding and solving problems.As an aspiring Full Stack Web</Text>
             <Text>developer, I like the impact it creates on the world.</Text>

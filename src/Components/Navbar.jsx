@@ -14,7 +14,7 @@ export const Navbar = () => {
 
             <Box display={"flex"} gap="30px" justifyContent={"center"} alignItems={"center"}>
             
-            <Text fontWeight={"bold"} fontSize={"30px"} fontFamily={"Roboto Mono"} color={"hsl(0, 0%, 30%)"} onClick={scrollToTop} _hover={{cursor:"pointer"}}>Chakresh</Text>
+            <Text  id="user-detail-name" fontWeight={"bold"} fontSize={"30px"} fontFamily={"Roboto Mono"} color={"hsl(0, 0%, 30%)"} onClick={scrollToTop} _hover={{cursor:"pointer"}}>Chakresh</Text>
             </Box>
 
             <Box display={"flex"} w="40%" alignItems={"center"} textColor={"hsl(0, 0%, 30%)"} justifyContent={"space-evenly"}>
@@ -80,7 +80,7 @@ export const Navbar = () => {
               >    <button className='navbar'>CONTACT</button>
               </Link>
                 </Box>
-               <Box>
+               <Box className="nav-link resume">
                 <a href="./Chakresh-Resume.pdf" download> <button className='navbar'>RESUME</button></a>
                </Box>
 

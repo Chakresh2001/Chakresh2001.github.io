@@ -14,7 +14,7 @@ import { Contact } from './Components/Contact/Contact';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App' id='nav-menu'>
       <Box position={"sticky"} top="0px" w="100%" h="80px" zIndex={"1000"}>
 
         <Navbar/>
@@ -28,7 +28,7 @@ function App() {
         <About id="about"/>
         </Box>
         <Box>
-        <Project id="project"/>
+        <Project id="projects"/>
         </Box>
         <Box>
         
