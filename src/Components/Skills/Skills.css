@@ -1,0 +1,30 @@
+.skill-container{
+    
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(120px, max-content));
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+.skill-container-child{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    /* box-shadow: rgba(0,0,0,0.15)0px 5px 15px 0px; */
+    padding: 20px 0px 10px;
+    border-radius: 10px; 
+    text-align: center; 
+    background-color: "#F0F0F0";
+}
+.skill-container-child p {
+    display: block;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+}

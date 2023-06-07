@@ -1,0 +1,43 @@
+h2 {
+    color: hsl(0, 0%, 28%);
+    font-size: 40px!important;
+    font-weight: bold!important;
+    font-family: monospace;
+    letter-spacing: 7px!important;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+  
+h2 {
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+}
+.resume{
+  font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto Mono;
+    padding: 10px;
+}
+.resume:hover{
+  background-color: #E6E7E2;
+    border-radius: 25px;
+}
+  
+@keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+
+  .web{
+    color: white;
+  }
