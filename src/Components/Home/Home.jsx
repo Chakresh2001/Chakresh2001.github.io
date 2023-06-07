@@ -48,7 +48,7 @@ return (
             <Box id="contact-github" h="30px" w="40px">
               <a href="https://www.linkedin.com/in/chakresh-476070119/">{gitID}</a>
             </Box>
-            <Box>
+            <Box id="resume-button-2">
                 <a id="resume-link-2" href="./Chakresh-Resume.pdf" download> <button className='resume'>RESUME</button></a>
             </Box>
             <Box  id="contact-linkedin" h="30px" w="36px">

@@ -80,8 +80,8 @@ export const Navbar = () => {
               >    <button className='navbar'>CONTACT</button>
               </Link>
                 </Box>
-               <Box className="nav-link resume">
-                <a id="resume-link-2" href="./Chakresh-Resume.pdf" download> <button className='navbar'>RESUME</button></a>
+               <Box className="nav-link resume"  id="resume-button-1">
+                <a id="resume-link-1" href="./Chakresh-Resume.pdf" download> <button className='navbar'>RESUME</button></a>
                </Box>
 
             </Box>
