@@ -33,7 +33,7 @@ export const Contact = ({id}) => {
                 <PhoneIcon h="30px" w={"40px"}/>
                 <Text>Phone</Text>
                 <Text>Here is My Phone Number</Text>
-                <Text>+91 8240754900</Text>
+                <Text id="contact-phone">+91 8240754900</Text>
                 </Box>
 
 
@@ -41,7 +41,7 @@ export const Contact = ({id}) => {
                     <EmailIcon h="40px" w={"60px"}/>
                     <Text>Email</Text>
                     <Text>You can mail me on this mail ID</Text>
-                    <Text>jha.chakresh2001@gmail.com</Text>
+                    <Text id="contact-email">jha.chakresh2001@gmail.com</Text>
                 </Box>
 
                 

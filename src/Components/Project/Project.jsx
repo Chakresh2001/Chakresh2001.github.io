@@ -39,6 +39,16 @@ export const Project = ({id}) => {
             view="https://previous-chalk-3282.vercel.app/"
 
             />
+            <ProjectCard 
+            
+            image = "./Coffee-House.png"
+            title = "Bialeti Clone"
+            desc = "Your go-to coffee destination: a Bialeti-Coffee Clone web app for purchasing coffee and related products."
+            techStack = "React.js, Chakra-UI, Css, HTML"
+            git="https://github.com/Chakresh2001/previous-chalk-3282"
+            view="https://previous-chalk-3282.vercel.app/"
+
+            />
         </Box>
 
 

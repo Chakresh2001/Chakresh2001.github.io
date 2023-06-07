@@ -11,9 +11,9 @@ export const About = ({id}) => {
         <lottie-player style={{marginTop:"20px", height:"450px", width:"450px", margin:"auto"}} background="transparent" src="https://assets3.lottiefiles.com/packages/lf20_iv4dsx3q.json" mode="bounce"   speed="1"  loop  autoplay></lottie-player>
         </Box>
         <Box id="user-detail-intro" mt="30px" fontSize={"1.4rem"} letterSpacing={1} textColor={"hsl(0, 0%, 30%)"}  textAlign={"center"} >
-            <Text>Hello! I am Chakresh</Text>
+            <Text  id="user-detail-name">Hello! I am Chakresh</Text>
             <Text>I love coding and solving problems.As an aspiring Full Stack Web</Text>
-            <Text>developer, I like the impact it creates on the world.</Text>
+            <Text>developer, I like the impact it creates on the world. I am expert in HTML, REACT.JS AND REDUX</Text>
             <Text>One of my strongest skill is creativity and it helps me a lot in web design I have</Text>
             <Text>created various end to end website clone using <span style={{color:"#01D0E2"}}> MERN stack</span> </Text>
         </Box>

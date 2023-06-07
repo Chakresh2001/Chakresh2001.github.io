@@ -62,14 +62,14 @@ export const Skills = ({id}) => {
         
         <Box mt="60px" display={"flex"} justifyContent={"center"} gap={"40px"}>
         <Box id="github-streak-stats"  mt="30px">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=Chakresh2001" alt="" />
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=Chakresh2001" alt="github-streak-stats" />
         </Box>
         
         <Box id="github-top-langs"   mt="30px">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chakresh2001&layout=donut" alt="" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chakresh2001&layout=donut" alt="github-top-langs" />
         </Box>
         <Box id="github-stats-card"  mt="30px">
-          <img src="https://github-readme-stats.vercel.app/api?username=Chakresh2001&show_icons=true" alt="" />
+          <img src="https://github-readme-stats.vercel.app/api?username=Chakresh2001&show_icons=true" alt="github-stats-card" />
         </Box>
         </Box>
         </Box>

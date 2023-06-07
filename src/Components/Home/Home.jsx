@@ -49,7 +49,7 @@ return (
               <a href="https://www.linkedin.com/in/chakresh-476070119/">{gitID}</a>
             </Box>
             <Box>
-                <a href="./Chakresh-Resume.pdf" download> <button className='resume'>RESUME</button></a>
+                <a id="resume-link-2" href="./Chakresh-Resume.pdf" download> <button className='resume'>RESUME</button></a>
             </Box>
             <Box  id="contact-linkedin" h="30px" w="36px">
               <a href="https://github.com/Chakresh2001">{LinkDin}</a>
