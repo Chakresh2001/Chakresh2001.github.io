@@ -9,7 +9,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div>
+    <div class="nav-link">
         <Box padding="10px 30px " display={"flex"} justifyContent={"space-between"} backgroundColor={"#E6E7E2"} boxShadow={"base"}>
 
             <Box display={"flex"} gap="30px" justifyContent={"center"} alignItems={"center"}>
@@ -19,7 +19,7 @@ export const Navbar = () => {
 
             <Box display={"flex"} w="40%" alignItems={"center"} textColor={"hsl(0, 0%, 30%)"} justifyContent={"space-evenly"}>
 
-                <Box > 
+                <Box className='home'> 
                 <Link
                 
                 to="home"
@@ -32,7 +32,7 @@ export const Navbar = () => {
                 </Box>
 
                 
-                <Box>
+                <Box className='about'>
                 <Link
                 activeClass="about"
                 to="about"
@@ -45,7 +45,7 @@ export const Navbar = () => {
                 </Box>
             
 
-                <Box>
+                <Box className='projects'>
                 <Link
                 activeClass="active"
                 to="projects"
@@ -57,7 +57,7 @@ export const Navbar = () => {
               </Link>
                 </Box>
 
-                <Box>
+                <Box className='skills'>
                 <Link
                 activeClass="active"
                 to="skills"
@@ -69,7 +69,7 @@ export const Navbar = () => {
               </Link>
                 </Box>
 
-                <Box>
+                <Box className='contact'>
                 <Link
                 activeClass="active"
                 to="contact"
