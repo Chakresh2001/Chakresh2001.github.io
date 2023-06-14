@@ -9,7 +9,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div id="nav-menu">
+    <div>
         <Box padding="10px 30px " display={"flex"} justifyContent={"space-between"} backgroundColor={"#E6E7E2"} boxShadow={"base"}>
 
             <Box display={"flex"} gap="30px" justifyContent={"center"} alignItems={"center"}>
