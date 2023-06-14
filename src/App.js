@@ -20,22 +20,22 @@ function App() {
         <Navbar/>
       </Box>
        
-       <Box id="home" className="nav-link home" mt="35px">
+       <Box id="home" mt="35px">
        <Home />
        </Box>
 
-        <Box id="about"  className='nav-link about'>
+        <Box id="about"  >
         <About />
         </Box>
-        <Box id="projects"  className="nav-link projects">
+        <Box id="projects"  >
         <Project />
         </Box>
-        <Box id="skills" className='nav-link skills'>
+        <Box id="skills" >
         
           <Skills />
          
         </Box>
-       <Box id="contact" className="nav-link contact">
+       <Box id="contact" >
         <Contact />
         </Box>
         
