@@ -39,25 +39,25 @@ export const Navbar = () => {
           textColor={"hsl(0, 0%, 30%)"}
           justifyContent={"space-evenly"}
         >
-          <a href="#home" className="navbar nav-link home">
+          <a href="#home" className="nav-link home navbar ">
            
             HOME
           </a>
 
-          <a href="#about" className="navbar nav-link about">
+          <a href="#about" className="nav-link about navbar ">
            
             ABOUT
           </a>
 
-          <a href="#projects" className="navbar nav-link projects">
-            PROJECTS
-          </a>
-
-          <a href="#skills" className="navbar nav-link skills">
+          <a href="#skills" className="nav-link skills navbar ">
             SKILLS
           </a>
 
-          <a href="#contact" className="navbar nav-link contact">
+          <a href="#projects" className="nav-link projects navbar ">
+            PROJECTS
+          </a>
+
+          <a href="#contact" className="nav-link contact navbar ">
             CONTACT
           </a>
 

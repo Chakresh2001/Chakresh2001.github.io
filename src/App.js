@@ -28,11 +28,11 @@ function App() {
         <About id="about" />
         
         
-        <Project id="projects"  />
-        
-        
-        
           <Skills id="skills" />
+        
+        
+        
+        <Project id="projects"  />
          
        
  
