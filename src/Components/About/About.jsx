@@ -4,8 +4,7 @@ import styles from "./About.css"
 
 export const About = ({id}) => {
   return (
-    <div id={id}>
-      <div className="nav-link about about section" style={{styles,  marginTop:"100px", padding:"20px", width:"100vw" }} id="about" >
+    <div className="nav-link about" style={{styles,  marginTop:"100px", padding:"20px", width:"100vw" }} id={id}>
         <Text fontSize={"35px"} fontWeight={"bold"} color={"#01D0E2"} textAlign={"center"}>About Me </Text>
        
         <Box>
@@ -18,7 +17,6 @@ export const About = ({id}) => {
             <Text>One of my strongest skill is creativity and it helps me a lot in web design I have</Text>
             <Text>created various end to end website clone using <span style={{color:"#01D0E2"}}> MERN stack</span> </Text>
         </Box>
-    </div>
     </div>
   )
 }
