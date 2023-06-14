@@ -22,12 +22,12 @@ export const Navbar = () => {
                 <Box > 
                 <Link
                 
-                to="home"
+                to="nav-link home"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={1000}
-              >  <a className='nav-link home'>HOME</a>
+              >  <a >HOME</a>
               </Link>
                 </Box>
 
@@ -35,12 +35,12 @@ export const Navbar = () => {
                 <Box>
                 <Link
                 activeClass="about"
-                to="about"
+                to="nav-link about"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={1000}
-              >    <a className='nav-link about'>ABOUT</a>
+              >    <a >ABOUT</a>
               </Link>
                 </Box>
             
@@ -48,36 +48,36 @@ export const Navbar = () => {
                 <Box>
                 <Link
                 activeClass="active"
-                to="project"
+                to="nav-link projects"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={1000}
-              >    <a className='nav-link projects'>PROJECTS</a>
+              >    <a >PROJECTS</a>
               </Link>
                 </Box>
 
                 <Box>
                 <Link
                 activeClass="active"
-                to="skills"
+                to="nav-link skills"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={1000}black
-              >    <a className='nav-link skills'>SKILLS</a>
+              >    <a>SKILLS</a>
               </Link>
                 </Box>
 
                 <Box>
                 <Link
                 activeClass="active"
-                to="contact"
+                to="nav-link contact"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={1000}
-              >    <a className='nav-link contact'>CONTACT</a>
+              >    <a>CONTACT</a>
               </Link>
                 </Box>
                <Box className="nav-link resume"  id="resume-button-1">
