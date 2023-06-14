@@ -4,7 +4,7 @@ import styles from "./Skills.css"
 
 export const Skills = ({id}) => {
   return (
-    <div className='nav-link skills'>
+    <div className='skills'>
       <div style={{marginTop:"100px"}} id={id} >
 
 <Text fontSize={"35px"} fontWeight={"bold"} color={"#01D0E2"} textAlign={"center"}>SKILLS</Text>
