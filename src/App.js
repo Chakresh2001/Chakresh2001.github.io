@@ -24,8 +24,8 @@ function App() {
        <Home />
        </Box>
 
-        <Box id="about"  >
-        <About />
+        <Box   >
+        <About id="about" />
         </Box>
         <Box id="projects"  >
         <Project />
