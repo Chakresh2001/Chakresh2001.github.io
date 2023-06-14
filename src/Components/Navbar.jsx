@@ -19,7 +19,7 @@ export const Navbar = () => {
 
             <Box display={"flex"} w="40%" alignItems={"center"} textColor={"hsl(0, 0%, 30%)"} justifyContent={"space-evenly"}>
 
-                <Box className='home'> 
+                <Box > 
                 <Link
                 
                 to="home"
@@ -32,7 +32,7 @@ export const Navbar = () => {
                 </Box>
 
                 
-                <Box className='about'>
+                <Box>
                 <Link
                 activeClass="about"
                 to="about"
@@ -45,7 +45,7 @@ export const Navbar = () => {
                 </Box>
             
 
-                <Box className='projects'>
+                <Box>
                 <Link
                 activeClass="active"
                 to="projects"
@@ -57,7 +57,7 @@ export const Navbar = () => {
               </Link>
                 </Box>
 
-                <Box className='skills'>
+                <Box>
                 <Link
                 activeClass="active"
                 to="skills"
@@ -69,7 +69,7 @@ export const Navbar = () => {
               </Link>
                 </Box>
 
-                <Box className='contact'>
+                <Box>
                 <Link
                 activeClass="active"
                 to="contact"
