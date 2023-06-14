@@ -5,7 +5,7 @@ import styles from "./About.css"
 export const About = ({id}) => {
   return (
     <div className=' nav-link about'  id={id}>
-      <div className="about section" style={{styles,  marginTop:"100px", padding:"20px", width:"100vw" }}>
+      <div id="about" className="about section" style={{styles,  marginTop:"100px", padding:"20px", width:"100vw" }}>
         <Text fontSize={"35px"} fontWeight={"bold"} color={"#01D0E2"} textAlign={"center"}>About Me </Text>
        
         <Box>

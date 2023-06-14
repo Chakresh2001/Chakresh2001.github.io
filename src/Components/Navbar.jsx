@@ -20,28 +20,21 @@ export const Navbar = () => {
             <Box display={"flex"} w="40%" alignItems={"center"} textColor={"hsl(0, 0%, 30%)"} justifyContent={"space-evenly"}>
 
                 <Box > 
-                <Link
+                <a
+                className='navbar'
+                href="#home"
                 
-                to="home"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-              >  <button class="navbar">HOME</button>
-              </Link>
+              > HOME
+              </a>
                 </Box>
 
                 
                 <Box>
-                <Link
-                activeClass="about"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-              >    <button class="navbar">ABOUT</button>
-              </Link>
+                <a
+                href='#about'
+                className='navbar'
+              >   ABOUT
+              </a>
                 </Box>
             
 
