@@ -27,7 +27,7 @@ export const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={1000}
-              >  <button className='navbar'>HOME</button>
+              >  <a className='nav-link home'>HOME</a>
               </Link>
                 </Box>
 
@@ -40,7 +40,7 @@ export const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={1000}
-              >    <button className='navbar'>ABOUT</button>
+              >    <a className='nav-link about'>ABOUT</a>
               </Link>
                 </Box>
             
@@ -53,7 +53,7 @@ export const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={1000}
-              >    <button className='navbar'>PROJECTS</button>
+              >    <a className='nav-link projects'>PROJECTS</a>
               </Link>
                 </Box>
 
@@ -65,7 +65,7 @@ export const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={1000}black
-              >    <button className='navbar'>SKILLS</button>
+              >    <a className='nav-link skills'>SKILLS</a>
               </Link>
                 </Box>
 
@@ -77,7 +77,7 @@ export const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={1000}
-              >    <button className='navbar'>CONTACT</button>
+              >    <a className='nav-link contact'>CONTACT</a>
               </Link>
                 </Box>
                <Box className="nav-link resume"  id="resume-button-1">
