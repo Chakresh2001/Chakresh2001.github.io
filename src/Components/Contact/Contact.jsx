@@ -9,7 +9,6 @@ export const Contact = ({id}) => {
 
 
   return (
-    <div  >
         <div style={{marginTop:"100px"}} id={id}>
 
 <Text  fontSize={"35px"} fontWeight={"bold"} color={"#01D0E2"} textAlign={"center"} >Contact</Text>    
@@ -81,6 +80,6 @@ export const Contact = ({id}) => {
 
 
 </div>
-    </div>
+  
   )
 }

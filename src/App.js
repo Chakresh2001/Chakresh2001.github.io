@@ -20,24 +20,24 @@ function App() {
         <Navbar/>
       </Box>
        
-       <Box id="home" mt="35px">
-       <Home />
-       </Box>
+   
+       <Home id="home" mt="35px" />
+    
 
-        <Box   >
-        <About id="about" />
-        </Box>
-        <Box id="projects"  >
-        <Project />
-        </Box>
-        <Box id="skills" >
         
-          <Skills />
+        <About id="about" />
+        
+        
+        <Project id="projects"  />
+        
+        
+        
+          <Skills id="skills" />
          
-        </Box>
-       <Box id="contact" >
-        <Contact />
-        </Box>
+       
+ 
+        <Contact id="contact" />
+
         
     </div>
   );
