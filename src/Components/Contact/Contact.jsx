@@ -9,7 +9,7 @@ export const Contact = ({id}) => {
 
 
   return (
-    <div className="contact" >
+    <div className="nav-link contact" >
         <div style={{marginTop:"100px"}} id={id}>
 
 <Text  fontSize={"35px"} fontWeight={"bold"} color={"#01D0E2"} textAlign={"center"} >Contact</Text>    
