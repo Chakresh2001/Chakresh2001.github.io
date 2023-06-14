@@ -31,7 +31,7 @@ export const Skills = ({id}) => {
         </Box>
         <Box className='skill-container-child skills-card' transition={"0.5s"} _hover={{transform:"translate(0, -10px)"}}>
 
-        <Image src="nodeJS.png" alt="icons" className="skills-card-img"/>
+        <Image src="nodeJs.png" alt="icons" className="skills-card-img"/>
         <p className='skills-card-name'>NodeJS</p>
         </Box>
         <Box className='skill-container-child skills-card' transition={"0.5s"} _hover={{transform:"translate(0, -10px)"}}>
