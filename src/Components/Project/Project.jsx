@@ -4,8 +4,8 @@ import { ProjectCard } from './ProjectCard'
 
 export const Project = ({id}) => {
   return (
-    <div >
-      <div style={{marginTop:"100px"}} id={id}>
+    <div id={id}>
+      <div style={{marginTop:"100px"}} >
         <Text mb="30px" fontSize={"35px"} fontWeight={"bold"} color={"#01D0E2"} textAlign={"center"} >Projects</Text>
         
         

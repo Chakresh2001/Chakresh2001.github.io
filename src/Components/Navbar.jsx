@@ -48,7 +48,7 @@ export const Navbar = () => {
                 <Box>
                 <Link
                 activeClass="active"
-                to="project"
+                to="projects"
                 spy={true}
                 smooth={true}
                 offset={-70}
