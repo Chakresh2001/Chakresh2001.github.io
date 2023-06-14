@@ -63,16 +63,16 @@ export const Skills = ({id}) => {
   
   <Box mt="60px" display={"flex"} justifyContent={"center"} gap={"40px"}>
 
-  <Box id="github-streak-stats"  mt="30px">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Chakresh2001" alt="github-streak-stats.css-46b038" />
+  <Box   mt="30px">
+    <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=Chakresh2001" alt="github-streak-stats.css-46b038" />
   </Box>
   
-  <Box id="github-top-langs"  mt="30px">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chakresh2001&layout=donut" alt="github-top-langs.css-46b038" />
+  <Box   mt="30px">
+    <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chakresh2001&layout=donut" alt="github-top-langs.css-46b038" />
   </Box>
 
-  <Box id="github-stats-card"  mt="30px">
-    <img src="https://github-readme-stats.vercel.app/api?username=Chakresh2001&show_icons=true" alt="github-stats-card.css-46b038" />
+  <Box   mt="30px">
+    <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=Chakresh2001&show_icons=true" alt="github-stats-card.css-46b038" />
   </Box>
   </Box>
   </Box>
