@@ -21,13 +21,13 @@ export const Navbar = () => {
 
                 <Box > 
                 <Link
-                className=''
-                to="nav-link home"
+                
+                to="home"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={1000}
-              >  <a >HOME</a>
+              >  <button>HOME</button>
               </Link>
                 </Box>
 
@@ -35,13 +35,12 @@ export const Navbar = () => {
                 <Box>
                 <Link
                 activeClass="about"
-                to="nav-link about"
+                to="about"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={1000}
-                className="nav-link about"
-              >    <a  >ABOUT</a>
+              >    <button>ABOUT</button>
               </Link>
                 </Box>
             
@@ -49,39 +48,36 @@ export const Navbar = () => {
                 <Box>
                 <Link
                 activeClass="active"
-                to="nav-link projects"
+                to="project"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={1000}
-                className='nav-link projects' 
-              >    <a >PROJECTS</a>
+              >    <button>PROJECTS</button>
               </Link>
                 </Box>
 
                 <Box>
                 <Link
                 activeClass="active"
-                to="nav-link skills"
+                to="skills"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={1000}black
-                className='nav-link skills'
-              >    <a >SKILLS</a>
+              >    <button>SKILLS</button>
               </Link>
                 </Box>
 
                 <Box>
                 <Link
                 activeClass="active"
-                to="nav-link contact"
+                to="contact"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={1000}
-                className="nav-link contact"
-              >    <a >CONTACT</a>
+              >    <button>CONTACT</button>
               </Link>
                 </Box>
                <Box className="nav-link resume"  id="resume-button-1">
