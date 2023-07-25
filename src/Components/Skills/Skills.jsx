@@ -5,7 +5,7 @@ import styles from "./Skills.css"
 export const Skills = ({id}) => {
   return (
    
-      <div style={{marginTop:"100px"}} id={id} >
+      <div style={{marginTop:"100px"}} id="skills" >
 
 <Text fontSize={"35px"} fontWeight={"bold"} color={"#01D0E2"} textAlign={"center"}>SKILLS</Text>
 
