@@ -9,6 +9,15 @@ export const About = ({ id }) => {
       className="about section"
       style={{ styles, marginTop: "100px", padding: "20px", width: "100vw" }}
     >
+      <Text
+        fontSize={"35px"}
+        fontWeight={"bold"}
+        color={"#01D0E2"}
+        textAlign={"center"}
+        paddingTop={"80px"}
+      >
+        About Me
+      </Text>
 
       <Box>
         <lottie-player
@@ -26,14 +35,6 @@ export const About = ({ id }) => {
           autoplay
         ></lottie-player>
       </Box>
-      <Text
-        fontSize={"35px"}
-        fontWeight={"bold"}
-        color={"#01D0E2"}
-        textAlign={"center"}
-      >
-        About Me
-      </Text>
       <Box
         id="user-detail-intro"
         mt="30px"
