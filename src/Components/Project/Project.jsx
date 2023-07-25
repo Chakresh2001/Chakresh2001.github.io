@@ -6,10 +6,10 @@ export const Project = ({id}) => {
   return (
     <div id={id}>
       <div style={{marginTop:"100px"}} >
-        <Text mb="30px" fontSize={"35px"} fontWeight={"bold"} color={"#01D0E2"} textAlign={"center"} >Projects</Text>
         
         
         <Box  m="auto" w="80%" >
+        <Text paddingTop="100px" fontSize={"35px"} fontWeight={"bold"} color={"#01D0E2"} textAlign={"center"} >Projects</Text>
             <ProjectCard 
             
             image = "./Zara.png"

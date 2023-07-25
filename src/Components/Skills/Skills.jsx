@@ -7,9 +7,9 @@ export const Skills = ({id}) => {
    
       <div style={{marginTop:"100px"}} id="skills" >
 
-<Text fontSize={"35px"} fontWeight={"bold"} color={"#01D0E2"} textAlign={"center"}>SKILLS</Text>
 
   <Box mt="50px" mb="50px" gap="20px" className='skill-container' display={"flex"}>
+<Text fontSize={"35px"}  fontWeight={"bold"} color={"#01D0E2"} textAlign={"center"}>SKILLS</Text>
 
   <Box className='skill-container-child skills-card' transition={"0.5s"} _hover={{transform:"translate(0, -10px)"}}>
   <Image src="./html.png" alt="icons" className='skills-card-img'  />
