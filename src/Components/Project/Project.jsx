@@ -42,12 +42,12 @@ export const Project = ({id}) => {
             />
             <ProjectCard 
             
-            image = "./Coffee-House.png"
-            title = "Bialeti Clone"
-            desc = "Your go-to coffee destination: a Bialeti-Coffee Clone web app for purchasing coffee and related products."
-            techStack = "React.js, Chakra-UI, Css, HTML"
-            git="https://github.com/Chakresh2001/previous-chalk-3282"
-            view="https://previous-chalk-3282.vercel.app/"
+            image = "https://user-images.githubusercontent.com/120241122/246763519-6bc289e9-62cb-4583-ae1b-721184cc616c.png"
+            title = "Credit Karma Clone"
+            desc = "A renowned Italian coffee brand known for its premium coffeeproducts and cutting-edge coffee machines."
+            techStack = "React.js, Chakra-UI, Css, HTML, Redux"
+            git="https://github.com/Chakresh2001/wonderful-sound"
+            view="https://wonderful-sound.vercel.app/"
 
             />
         </Box>
