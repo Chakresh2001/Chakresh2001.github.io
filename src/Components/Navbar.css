@@ -1,11 +1,11 @@
-.navbar{
+#hover{
     font-size: 20px;
     font-weight: bold;
     font-family: Roboto Mono;
     padding: 10px;
     /* border: 1px solid red; */
 }
-.navbar:hover{
+#hover:hover{
     background-color: #F0F0F0;
     border-radius: 25px;
 }

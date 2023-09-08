@@ -17,14 +17,14 @@ export const Contact = ({id}) => {
 
             <Box display="grid" placeItems={"center"} mt="20px">
 
-    <Box w="85%" display={"flex"} justifyContent={"space-around"}>
+    <Box w="85%" display={"flex"} justifyContent={"space-around"} flexWrap="wrap">
         
         <Box  textAlign={"center"} lineHeight={"35px"}>
         <Box h="30px" w="40px" m="auto">
         <a style={{width:"40px", height:"30px"}} href="https://www.linkedin.com/in/chakresh-476070119/">{LinkDin}</a>
         </Box>
         <Text mt="10px">LinkedLn</Text>
-        <Text>You can contact me on LinkedIn</Text>
+        {/* <Text>You can contact me on LinkedIn</Text> */}
         <Text><a href="https://www.linkedin.com/in/chakresh-476070119/">Chakresh .</a></Text>
         </Box>
 
@@ -32,7 +32,7 @@ export const Contact = ({id}) => {
         <Box  textAlign={"center"} lineHeight={"35px"}>
         <PhoneIcon h="30px" w={"40px"}/>
         <Text>Phone</Text>
-        <Text>Here is My Phone Number</Text>
+        {/* <Text>Here is My Phone Number</Text> */}
         <Text id="contact-phone">+91 8240754900</Text>
         </Box>
 
@@ -40,7 +40,7 @@ export const Contact = ({id}) => {
         <Box textAlign={"center"} letterSpacing={1} lineHeight={"35px"}>
             <EmailIcon h="40px" w={"60px"}/>
             <Text>Email</Text>
-            <Text>You can mail me on this mail ID</Text>
+            {/* <Text>You can mail me on this mail ID</Text> */}
             <Text id="contact-email">jha.chakresh2001@gmail.com</Text>
         </Box>
 
@@ -54,7 +54,7 @@ export const Contact = ({id}) => {
 
 
     <Box display="grid" placeItems={"center"} mt="50px" >
-        <Box w="85%" display={"flex"} justifyContent={"space-evenly"} >
+        <Box w="85%"  justifyContent={"space-evenly"} display="flex" flexWrap="wrap">
 
         <Box >
             <Input mt="30px" border="1px solid black" placeholder={"Name"} borderRadius={"none"}/>

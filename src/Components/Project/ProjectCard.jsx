@@ -10,7 +10,7 @@ export const ProjectCard = ({image, title, desc, techStack, git,view}) => {
     <div>
         <Box className='project-card' m="auto" w="80%" mt="80px" gap="30px" display={"flex"} justifyContent={"center"} alignItems={"center"} padding={"20px"} boxShadow={"md"}>
             <Box overflow={"hidden"}>
-                <Image  transition={"transform .5s"} _hover={{ transform:"scale(1.07)", cursor:"pointer"}} src={image}/>
+                <Image  transition={"transform .5s"} _hover={{ transform:"scale(1.07)"}} src={image}/>
             </Box>
             <Box className='project-title' letterSpacing={1}>
             <Text fontSize={"18px"} fontWeight={"bold"}>{title}</Text>
