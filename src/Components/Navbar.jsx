@@ -17,14 +17,14 @@ export const Navbar = () => {
 
   const [isLargerThan768] = useMediaQuery("(min-width: 863px)");
 
-  const handleClick = () => {
-    window.open(
-      "https://drive.google.com/file/d/1S9zAZ7huAztgCec4fCGTOFk_nF9YqSWc/view?usp=sharing",
-      "_blank",
-      "noopener",
-      "noreferer"
-    );
-  };
+    const handleClick = () => {
+      window.open(
+        "https://drive.google.com/file/d/1S9zAZ7huAztgCec4fCGTOFk_nF9YqSWc/view?usp=sharing",
+        "_blank",
+        "noopener",
+        "noreferer"
+      );
+    };
 
   return (
     <Box

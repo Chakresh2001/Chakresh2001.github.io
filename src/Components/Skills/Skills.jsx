@@ -62,7 +62,7 @@ export const Skills = ({ id }) => {
 
       <Box>
         <Text fontSize="40px" fontWeight="bold" fontFamily="Roboto Mono" textAlign="center">
-          Days I <span style={{ color: '#01D0E2' }}> Worked</span>
+          Days I <span style={{ color: '#01D0E2' }}> Worked on Git Hub</span>
         </Text>
 
         <Box className="react-activity-calendar" mt="60px" display={"flex"} justifyContent="center" >
