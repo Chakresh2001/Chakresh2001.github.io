@@ -59,7 +59,7 @@ export const About = ({ id }) => {
         Continuously expanding knowledge and skills to stay ahead of emerging trends and technologies in the industry.
         </Text>
         <Text>
-        Dedicated to making meaningful contributions to teams and organizations, delivering high-quality projects that exceed client expectations.
+        Dedicated to making meaningful contributions to teams, delivering high-quality projects that exceed expectations.
         </Text>
         <Text>
           created various end-to-end website clones using{" "}
