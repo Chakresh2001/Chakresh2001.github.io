@@ -50,7 +50,7 @@ export const About = ({ id }) => {
          
         
         <Text>
-        Proficient in front-end development, specializing in creating user-friendly interfaces for seamless user experiences with HTML CSS Javascript. 
+        Proficient in front-end development, specilized in creating user-friendly interfaces with HTML CSS Javascript. 
         </Text>
         <Text>
         Skilled in back-end technologies such as React.js. Deep understanding of Redux for efficient handling of complex data structures.
