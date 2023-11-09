@@ -77,13 +77,14 @@ return (
             </Box>
             <Box mt="30px" display={"flex"} justifyContent={"center"} gap={isLargerThan768 ? "80px" : "30px"}>
             <Box id="contact-github" h={isLargerThan768 ? "30px" : "35px"} w={isLargerThan768 ? "40px" : "45px"}>
-              <a href="https://www.linkedin.com/in/chakresh-476070119/">{gitID}</a>
+            <a href="https://github.com/Chakresh2001" target="_blank">{gitID}</a>
+
             </Box>
             <Box id="resume-button-2">
                 <a id="resume-link-2" href="./Chakresh-Resume.pdf" download> <button className='resume' onClick={handleClick}>RESUME</button></a>
             </Box>
             <Box  id="contact-linkedin" h="30px" w="36px">
-              <a href="https://github.com/Chakresh2001">{LinkDin}</a>
+              <a href="https://www.linkedin.com/in/chakresh-476070119/" target="_blank">{LinkDin}</a>
             </Box>
             </Box>
             
