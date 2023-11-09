@@ -44,17 +44,22 @@ export const About = ({ id }) => {
         textColor="hsl(0, 0%, 30%)"
         textAlign="center"
       >
-        <Text id="user-detail-name">Hello! I am Chakresh</Text>
+        <Text id="user-detail-name">Greetings! Meet Chakresh, a passionate individual immersed in the world of coding and problem-solving</Text>
+        
+         
+         
+        
         <Text>
-          I love coding and solving problems. As an aspiring Full Stack Web
+        Proficient in front-end development, specializing in creating responsive and user-friendly interfaces for seamless user experiences across multiple platforms with HTML CSS Javascript. 
         </Text>
         <Text>
-          developer, I like the impact it creates on the world. I am an expert in
-          HTML, REACT.JS AND REDUX
+        Skilled in back-end technologies such as React.js, enabling the creation of scalable server-side applications. Deep understanding of Redux for efficient handling of complex data structures.
         </Text>
         <Text>
-          One of my strongest skills is creativity, and it helps me a lot in web
-          design. I have
+        Continuously expanding knowledge and skills to stay ahead of emerging trends and technologies in the industry.
+        </Text>
+        <Text>
+        Dedicated to making meaningful contributions to teams and organizations, delivering high-quality projects that exceed client expectations.
         </Text>
         <Text>
           created various end-to-end website clones using{" "}
